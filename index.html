@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NÉVRA | Moda femenina</title>
+  <meta name="description" content="NÉVRA: ropa de mujer actual, casual y elegante. Encuentra tu estilo.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">ENVÍO GRATIS EN PEDIDOS SUPERIORES A 50 €</div>
+  <header class="header">
+    <a class="logo" href="index.html">NÉVRA <small>WOMEN'S FASHION</small></a>
+    <nav>
+      <a class="active" href="index.html">Inicio</a>
+      <a href="#coleccion">Colección</a>
+      <a href="#nosotras">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="cart-link" href="carrito.html">Bolsa <span id="cart-count">0</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="assets/campana-nevra.jpg" alt="Campaña de moda femenina NÉVRA">
+      <div class="hero-copy">
+        <p class="eyebrow">NUEVA COLECCIÓN</p>
+        <h1>Define tu<br>propio estilo.</h1>
+        <p>Ropa de mujer con personalidad.</p>
+        <a class="button button-light" href="#coleccion">DESCUBRIR COLECCIÓN ↗</a>
+      </div>
+    </section>
+
+    <section class="categories">
+      <a href="#coleccion" data-filter="tops"><span>01</span><b>Tops</b></a>
+      <a href="#coleccion" data-filter="jerseys"><span>02</span><b>Jerséis</b></a>
+      <a href="#coleccion" data-filter="pantalones"><span>03</span><b>Pantalones</b></a>
+      <a href="#coleccion" data-filter="chaquetas"><span>04</span><b>Chaquetas</b></a>
+      <a href="#coleccion" data-filter="vestidos"><span>05</span><b>Vestidos</b></a>
+      <a href="#coleccion" data-filter="sudaderas"><span>06</span><b>Sudaderas</b></a>
+      <a href="#coleccion" data-filter="todos"><span>07</span><b>Ver todo</b></a>
+    </section>
+
+    <section class="collection section" id="coleccion">
+      <div class="section-heading">
+        <div><p class="eyebrow">NUESTRA SELECCIÓN</p><h2>Lo más vendido</h2></div>
+        <button class="text-button" data-filter="todos">VER TODA LA COLECCIÓN ↗</button>
+      </div>
+      <div class="filters">
+        <button class="filter active" data-filter="todos">Todo</button>
+        <button class="filter" data-filter="tops">Tops</button>
+        <button class="filter" data-filter="jerseys">Jerséis</button>
+        <button class="filter" data-filter="pantalones">Pantalones</button>
+        <button class="filter" data-filter="chaquetas">Chaquetas</button>
+        <button class="filter" data-filter="vestidos">Vestidos</button>
+        <button class="filter" data-filter="sudaderas">Sudaderas</button>
+      </div>
+      <div class="products" id="products"></div>
+    </section>
+
+    <section class="story" id="nosotras">
+      <div class="story-photo"></div>
+      <div class="story-copy">
+        <p class="eyebrow">SOBRE NÉVRA</p>
+        <h2>Moda que te acompaña.</h2>
+        <p>En NÉVRA creemos que la moda es una forma de expresión. Seleccionamos prendas versátiles, actuales y fáciles de combinar para que encuentres tu propio estilo en cualquier momento.</p>
+        <a class="button button-dark" href="#contacto">CONÓCENOS ↗</a>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div><strong>✧</strong><b>Estilo actual</b><small>Prendas para cada ocasión</small></div>
+      <div><strong>◇</strong><b>Compra sencilla</b><small>Tu selección en pocos pasos</small></div>
+      <div><strong>↗</strong><b>Envío gratis</b><small>En pedidos superiores a 50 €</small></div>
+    </section>
+  </main>
+
+  <footer id="contacto">
+    <a class="logo footer-logo" href="index.html">NÉVRA <small>WOMEN'S FASHION</small></a>
+    <p>Ropa de mujer. Estilo sin límites.</p>
+    <div><a href="index.html">Inicio</a><a href="#coleccion">Colección</a><a href="#nosotras">Nosotros</a><a href="mailto:hola@nevra.example">Contacto</a></div>
+    <small>© 2026 NÉVRA. Tienda de demostración.</small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
